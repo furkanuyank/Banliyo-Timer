@@ -58,7 +58,7 @@ function Favourites({ navigation }) {
                     }>
 
                     {favourites.length == 0
-                        ? <Text style={{ fontSize: 45, color: '#A0A0A0', textAlign: 'center', marginTop: 200 }}>Favoriler boş</Text>
+                        ? <Text style={{ fontSize: 45, color: '#A0A0A0', textAlign: 'center', marginTop: 200 }}>No Favourites</Text>
                         : <Text style={{ fontSize: 0 }}></Text>}
 
                     <View style={{ marginTop: 30 }}>

@@ -46,7 +46,7 @@ function Favourite({ yon, durak, time }) {
                         marginTop: time == 0 ? 6 : 0,
                         marginBottom: time == 0 ? 8 : 2
                     }}
-                >{time == 0 ? '1 minutes içinde gelecek' : `${time} minutes`}</Text>
+                >{time == 0 ? 'Will come in 1 minute' : `${time} minutes`}</Text>
             </View>
         </View >
     )

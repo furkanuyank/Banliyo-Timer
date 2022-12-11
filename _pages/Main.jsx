@@ -146,7 +146,7 @@ function Main({ navigation }) {
                                         <Text style={styles.currentTrain}>{`Current Train: ${convertToDateString(getCurrentTrain(getMomentDateNumber(), timeData))}`}</Text>
                                         <Text style={styles.nextTrain}>-</Text>
                                         {getRemainTime(getMomentDateNumber(), timeData) == 0
-                                            ? <Text style={styles.remainTime1min}>1 minutes içinde gelecek</Text>
+                                            ? <Text style={styles.remainTime1min}>Will come in 1 minute</Text>
                                             : getRemainTime(getMomentDateNumber(), timeData) / 60 < 1
                                                 ? <Text style={styles.remainTimeLong}>{`${getRemainTime(getMomentDateNumber(), timeData)} minutes`}</Text>
                                                 : <Text style={styles.remainTimeLong}>{`${Math.floor((getRemainTime(getMomentDateNumber(), timeData) / 60))} hour ${Math.floor((getRemainTime(getMomentDateNumber(), timeData) % 60))} minutes`}</Text>
@@ -158,7 +158,7 @@ function Main({ navigation }) {
                                         <Text style={styles.currentTrain}>{`Current Train: ${convertToDateString(getCurrentTrain(getMomentDateNumber(), timeData))}`}</Text>
                                         <Text style={styles.nextTrain}>{`Next Train: ${convertToDateString(getNextTrain(getMomentDateNumber(), timeData))}`}</Text>
                                         {getRemainTime(getMomentDateNumber(), timeData) == 0
-                                            ? <Text style={styles.remainTime1min}>1 minutes içinde gelecek</Text>
+                                            ? <Text style={styles.remainTime1min}>Will come in 1 minute</Text>
                                             : getRemainTime(getMomentDateNumber(), timeData) / 60 < 1
                                                 ? <Text style={styles.remainTimeLong}>{`${getRemainTime(getMomentDateNumber(), timeData)} minutes`}</Text>
                                                 : <Text style={styles.remainTimeLong}>{`${Math.floor((getRemainTime(getMomentDateNumber(), timeData) / 60))} hour ${Math.floor((getRemainTime(getMomentDateNumber(), timeData) % 60))} minutes`}</Text>
