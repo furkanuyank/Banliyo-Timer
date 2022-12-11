@@ -4,6 +4,7 @@
 ### ReactNative ###
 # React Native Stack Base
 
+.vscode
 .expo
 __generated__
 

@@ -54,3 +54,33 @@ export const getRemainTime = (date, timeData) => {
 
     return remainTime;
 }
+
+export const stringifyDurak = (string) => {
+
+    const tempArray = string.split('-')
+    let returnString = '';
+
+    tempArray.map((word, i) => {
+        const tempString = word.charAt(0).toUpperCase() + word.slice(1);
+        returnString += `${tempString} `
+    })
+    return returnString
+}
+
+export const stringifyYon = (string) => {
+
+    const tempArray = string.split('-')
+    let returnString = '';
+
+    tempArray.map((word, i) => {
+        const tempString = word.charAt(0).toUpperCase() + word.slice(1);
+        if (i == 1) {
+            returnString += ' --> '
+        }
+        else {
+            returnString += `${tempString} `
+        }
+
+    })
+    return returnString
+}

@@ -1,5 +1,5 @@
 export const dropdownDatas = {
-    'dropdownLabels': [
+    'SKdropdownLabels': [
         'Sincan',
         'Lale',
         'Elvankent',
@@ -25,7 +25,7 @@ export const dropdownDatas = {
         'Kostence',
         'Kayas'
     ],
-    'dropdownValues': [
+    'SKdropdownValues': [
         '-sincan',
         '-lale',
         '-elvankent',
@@ -50,6 +50,58 @@ export const dropdownDatas = {
         '-uregil',
         '-kostence',
         '-kayas',
+    ],
+    'KSdropdownLabels': [
+        'Kayas',
+        'Kostence',
+        'Uregil',
+        'Bagderesi',
+        'Mamak',
+        'Saimekadin',
+        'Demirlibahçe',
+        'Cebeci',
+        'Kurtuluş',
+        'Yenişehir',
+        'Ankara',
+        'Hipodrom',
+        'Gazi Mahallesi',
+        'Gazi',
+        'Motor Duraği',
+        'Behicbey',
+        'Yildirim',
+        'Hava Duraği',
+        'Etimesgut',
+        'Ozgunes',
+        'Eryaman',
+        'Elvankent',
+        'Lale',
+        'Sincan'
+    ],
+    'KSdropdownValues': [
+        '-kayas',
+        '-kostence',
+        '-uregil',
+        '-bagderesi',
+        '-mamak',
+        '-saimekadin',
+        '-demirlibahce',
+        '-cebeci',
+        '-kurtulus',
+        '-yenisehir',
+        '-ankara',
+        '-hipodrom',
+        '-gazi-mahallesi',
+        '-gazi',
+        '-motor-duragi',
+        '-behicbey',
+        '-yildirim',
+        '-havaduragi',
+        '-etimesgut',
+        '-ozgunes',
+        '-eryaman',
+        '-elvankent',
+        '-lale',
+        '-sincan',
     ]
 }
 
