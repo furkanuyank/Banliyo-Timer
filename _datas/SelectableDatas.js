@@ -106,6 +106,6 @@ export const dropdownDatas = {
 }
 
 export const radioValues = [
-    { label: 'Kayaş to Sincan', value: 'kayas-to-sincan' },
-    { label: 'Sincan to Kayaş', value: 'sincan-to-kayas' }
+    { label: 'Kayaş --> Sincan', value: 'kayas-to-sincan' },
+    { label: 'Sincan --> Kayaş', value: 'sincan-to-kayas' }
 ];
