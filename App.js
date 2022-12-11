@@ -17,7 +17,7 @@ function App() {
             orientation: 'landscape'
           }}>
           <Tab.Screen name="Home" component={Main} />
-          <Tab.Screen name="Favourites" component={Favourites} />
+          <Tab.Screen name="Favourıtes" component={Favourites} />
         </Tab.Navigator>
       </NavigationContainer >
     </SafeAreaProvider >

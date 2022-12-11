@@ -37,7 +37,7 @@ function Favourites({ navigation }) {
 
         useEffect(() => {
             setInterval(() => {
-                moment = new Date();
+                const moment = new Date();
                 if (moment.getSeconds() < 5) {
                     setUpdate(!update)
                 }
